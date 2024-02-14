@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(2, 2, 3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color:  rgb(26, 26, 39);
+    margin-top: 10px;
+    color: white;
+}
+
+.calculator  {
+    width: 320px;
+    padding: 5px;
+    border-radius: 25px;
+    border: solid 5px white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.display {
+    width: 90%;
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: end;
+    padding: 5px;
+}
+
+.all-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.left-btns {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.refresh-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-btns {
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    columns: 4;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
